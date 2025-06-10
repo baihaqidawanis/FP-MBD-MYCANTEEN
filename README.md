@@ -1,7 +1,6 @@
 Final Project MBD 2025
 Final project untuk MBD adalah pembuatan website mengenai sistem yang berguna di lingkungan ITS
-tetapi belum diprovide di myITS. Masing-masing kelompok terdiri dari 4 orang (khusus kelas MBD C, 2
-kelompok terdiri dari 5 orang)
+tetapi belum diprovide di myITS. 
 Ketentuan pembuatan website:
 1. Website yang dibangun boleh menggunakan database selain PostgreSQL
 2. Website memuat seluruh query dari masing-masing anggota
