@@ -13,7 +13,7 @@ b. Tabel transaksi :minimal 60baris data
 6. Setiap anggota kelompok 2 query searching melibatkan join, 2 query view, 2 query trigger dan 2
 query function/procedure
 
+run generate_pass.php terlebih dahulu untuk mendapatkan hasil hashing dari password admin
 
 Notes : untuk admin bisa masukinn berikut sebagai contoh
-run generate_pass.php terlebih dahulu untuk mendapatkan hasil hashing dari password admin
 INSERT INTO Admin (id_admin, username, password, nama_lengkap, email) VALUES ('5025231177', 'haqi', 'run hash dari generate_pass.php', 'Muhammad Baihaqi Dawanis', 'dawanisbaihaqi@gmail.com');
