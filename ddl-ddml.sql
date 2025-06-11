@@ -124,10 +124,10 @@ INSERT INTO Penjual (id_kantin, nama_kantin, nama_penanggung_jawab, email_kantin
 
 -- 4. Tabel Diskon (4 baris, terhubung ke Penjual)
 INSERT INTO Diskon (nama_diskon, persentase_disko, tanggal_mulai, tanggal_akhir, Penjual_id_kantin) VALUES
-('Diskon Lebaran', 10, '2025-04-01', '2025-04-30', 'K001'),
-('Promo Akhir Bulan', 15, '2025-05-20', '2025-05-31', 'K002'),
+('Diskon Lebaran', 10, '2025-06-01', '2025-06-30', 'K001'),
+('Promo Akhir Semester', 15, '2025-05-20', '2025-06-31', 'K002'),
 ('Diskon Pelajar', 5, '2025-01-01', '2025-12-31', 'K001'),
-('Promo Gebyar', 20, '2025-06-15', '2025-06-30', 'K003');
+('Promo Kebaikan', 20, '2025-06-01', '2025-08-30', 'K003');
 
 -- 5. Tabel Menu (6 baris, terhubung ke Penjual dan opsional Diskon)
 INSERT INTO Menu (id_menu, nama_menu, deskripsi, harga, status_menu, Penjual_id_kan, Diskon_id_disk) VALUES
