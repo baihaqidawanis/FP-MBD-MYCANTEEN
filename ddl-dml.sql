@@ -154,7 +154,7 @@ INSERT INTO KegiatanKampus (nama_kegiatan, deskripsi_kegiatan, tanggal_mulai, ta
 
 -- 1. Tabel Pesanan 
 INSERT INTO Pesanan (pesanan_date, pesanan_total, pesanan_paym, status, Pembeli_id_mah) VALUES
-('2025-06-01 10:00:00', 25000, 'Cash', 'Selesai', '5025231001'),  
+('2025-06-01 10:00:00', 25000, 'Cash', 'Diproses', '5025231001'),  
 ('2025-06-01 10:15:00', 22000, 'QRIS', 'Selesai', '5025231002'),  
 ('2025-06-01 10:30:00', 30000, 'Cash', 'Diproses', '5025231003'), 
 ('2025-06-01 11:00:00', 10000, 'Transfer Bank', 'Selesai', '5025231004'), 
