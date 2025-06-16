@@ -1,4 +1,3 @@
-
 -- Definisi Tabel (CREATE TABLE)
 
 CREATE TABLE Pembeli (
@@ -235,7 +234,7 @@ INSERT INTO Review (rating, tanggal_rating, Pesanan_pesanan_id, Penjual_id_kanti
 (4, '2025-06-05 15:00:00', 11, 'K001'),
 (5, '2025-06-06 12:00:00', 13, 'K002'),
 (4, '2025-06-07 11:00:00', 15, 'K001'),
-(4, '2025-06-01 10:45:00', 3, 'K001'); -
+(4, '2025-06-01 10:45:00', 3, 'K001'); 
 
 
 SET FOREIGN_KEY_CHECKS = 1;
